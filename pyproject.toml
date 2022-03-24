@@ -34,7 +34,7 @@ requires = [
   "setuptools>=30.3.0",
   "wheel",
   "scikit-build",
-  'cmake==3.18.4; python_version < "3.7" and platform_system == "Linux"',
+  'cmake==3.22.0; python_version < "3.7" and platform_system == "Linux"',
   'cmake==3.22.2; python_version >= "3.7" and platform_system == "Linux"',
   'cmake==3.18.0; platform_system != "Linux"',
   "ninja",
